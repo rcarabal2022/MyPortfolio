@@ -14,7 +14,7 @@ html {
 
 /*M E N U*/
 .header-container {
-    background: #ffffff;
+    background:#EFF2F4;
     position: fixed;
     width: 100%;
     top: 0;
@@ -90,7 +90,7 @@ margin: auto;
 } 
 .begin .container-banner h1{
     margin-top: 40px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Righteous";
 }
 .begin .container-banner h2{
@@ -110,4 +110,7 @@ margin: auto;
     margin: 20px 5px 0px;
     font-size: 20px;
     transition: .3s;
+}
+.begin .container-banner .net a:hover{
+    background-color: #B03d56;
 }
