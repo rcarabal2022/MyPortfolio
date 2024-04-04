@@ -14,7 +14,7 @@ html {
 
 /*M E N U*/
 .header-container {
-    background:#EFF2F4;
+    background:#DEE7ED;
     position: fixed;
     width: 100%;
     top: 0;
@@ -67,7 +67,7 @@ html {
 
 /*Begin Section */
 .begin{
-    background: linear-gradient(to top, rgba(214, 227, 235, 0.8),rgb(255, 255, 255)),url(/img/Fondo.jpg);
+    background: linear-gradient(to top, rgb(255, 255, 255),rgba(214, 227, 235, 0.8)),url(/img/Fondo.jpg);
     background-size: cover;
     height: 100vh;
     color: #000000;
@@ -76,7 +76,7 @@ html {
 }
 .begin .container-banner{
     padding: 35px;
-    background-color: #eff2f4;
+    background-color: #DEE7ED;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -113,4 +113,140 @@ margin: auto;
 }
 .begin .container-banner .net a:hover{
     background-color: #B03d56;
+}
+
+/* About me Section */
+.aboutme{
+    background-color:#ffffff;
+    color: black;
+    padding: 50px 20px;  
+}
+.aboutme .containersection{
+max-width: 1100px;
+margin: auto;
+}
+
+.aboutme h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.aboutme .containersection p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+.aboutme .containersection p span{
+color: #B03d56;
+font-weight: bold;
+}
+.aboutme .fila{
+  display:flex;
+}
+.aboutme .fila .col{
+    width: 50%;
+}
+.aboutme .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.aboutme .fila .col ul{
+    list-style: none;
+}
+.aboutme .fila .col ul li{
+    margin: 12px 0;
+}
+.aboutme .fila .col ul li strong{
+    display: inline-block;
+    color: #B03d56;
+    width: 130px;
+}
+.aboutme .fila .col ul li span{
+    background-color: #B03d56;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.aboutme .fila .col .container-interests{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutme .fila .col .container-interests .interest{
+width: 100px;
+height: 100px;
+background-color:  #DEE7ED;
+border-radius: 10px;
+margin: 0 15px 15px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: .3s;
+}
+.aboutme .fila .col .container-interests .interest:hover{
+    background-color: #B03d56; 
+}
+.aboutme .fila .col .container-interests .interest i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.aboutme button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+.aboutme button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #B03d56;
+    z-index: -1;
+    transition: 1s;
+}
+.aboutme button:hover .overlay{
+    width: 100%;
+}
+/* Skill Section */
+.skills{
+    background-color:#ffffff;
+    color: black;
+    /* padding: 50px 20px;   */
+    }
+.skills .containersection{
+max-width: 1100px;
+margin: auto;
+}
+
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
 }
