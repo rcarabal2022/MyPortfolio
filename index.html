@@ -20,14 +20,14 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#begin">INICIO</a></li>
-                    <li><a href="#aboutme">SOBRE MI</a></li>
-                    <li><a href="#skills">HABILIDADES</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portfolio">PORTAFOLIO</a></li>
+                    <li><a href="#begin" onclick="select()">INICIO</a></li>
+                    <li><a href="#aboutme" onclick="select()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="select()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTAFOLIO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="showhideshow()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -71,7 +71,7 @@
                         </li>
                         <li>
                             <strong>Dirección</strong>
-                            Tarragona - Cataluña
+                            Tarragona - España
                         </li>
                     </ul>
                 </div>
@@ -288,10 +288,10 @@
             </div>
         </div>
     </section>
-    <!-- Section PORTAFOLIO -->
+    <!-- Portfolio Section  -->
     <section id="portfolio" class="portfolio">
         <div class="containersection">
-            <h2>PORTAFOLIO</h2>
+            <h2>Portafolio</h2>
             <div class="galery">
                 <div class="project">
                     <img src="/img/photo1.jpg" alt="">
@@ -317,6 +317,17 @@
             </div>
         </div>
     </section>
+    <!-- Footer  -->
+<footer>
+    <a href="#begin" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="net">
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+<script>src="script.js"</script>
 </body>
 
 </html>
