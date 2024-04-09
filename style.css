@@ -327,12 +327,12 @@ html {
     }
 }
 
-.skills .skills .HTMLCCS {
+.skills .skills .htmlcss {
     width: 0%;
-    animation: 2s HTMLCCS forwards;
+    animation: 2s htmlcss forwards;
 }
 
-@keyframes HTMLCCS {
+@keyframes htmlcss {
     0% {
         width: 0%;
     }
@@ -342,12 +342,12 @@ html {
     }
 }
 
-.skills .skills .Python {
+.skills .skills .python {
     width: 0%;
-    animation: 2s Python forwards;
+    animation: 2s python forwards;
 }
 
-@keyframes Python {
+@keyframes python {
     0% {
         width: 0%;
     }
@@ -357,12 +357,12 @@ html {
     }
 }
 
-.skills .skills .SQL {
+.skills .skills .sql {
     width: 0%;
-    animation: 2s SQL forwards;
+    animation: 2s sql forwards;
 }
 
-@keyframes SQL {
+@keyframes sql {
     0% {
         width: 0%;
     }
@@ -372,12 +372,12 @@ html {
     }
 }
 
-.skills .skills .R {
+.skills .skills .r {
     width: 0%;
-    animation: 2s R forwards;
+    animation: 2s r forwards;
 }
 
-@keyframes R {
+@keyframes r {
     0% {
         width: 0%;
     }
@@ -682,6 +682,10 @@ footer .net a {
     transition: .3s;
 }
 
+footer .net a:hover {
+    background-color: #B03d56;
+}
+
 footer .up {
     display: block;
     width: 50px;
@@ -697,7 +701,7 @@ footer .up {
     font-size: 18px;
 }
 
-/* Respondive Section */
+/* Responsive Section */
 @media screen and (max-width:980px) {
     nav {
         display: none;
@@ -743,28 +747,33 @@ footer .up {
     .skills .fila .col {
         width: 100%;
     }
-    .skills .fila .col .skill-bar{
+
+    .skills .fila .col .skill-bar {
         width: 100%;
     }
+
     .curriculum .fila {
         display: block;
     }
-    .curriculum .fila .col{
+
+    .curriculum .fila .col {
         width: 90%;
     }
-    .curriculum .fila .rigth{
+
+    .curriculum .fila .rigth {
         margin-left: 20px;
     }
-    .portfolio .galery{
+
+    .portfolio .galery {
         display: block;
         width: 100%;
     }
-    .portfolio .galery .project{
-        max-width: 100%;  
-    }
-    .portfolio .galery .project img{
-        width: 100% 
+
+    .portfolio .galery .project {
+        max-width: 100%;
     }
 
-    
+    .portfolio .galery .project img {
+        width: 100%
+    }
 }
