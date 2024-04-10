@@ -386,6 +386,20 @@ html {
         width: 60%;
     }
 }
+.skills .skills .plc {
+    width: 0%;
+    animation: 2s plc forwards;
+}
+
+@keyframes plc {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
 
 .skills .skills .atencion {
     width: 0%;
@@ -495,6 +509,7 @@ html {
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    
 }
 
 .curriculum .fila .left {

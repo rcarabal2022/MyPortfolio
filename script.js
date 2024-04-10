@@ -26,11 +26,12 @@ function effectskills() {
     skill2[2].classList.add("python");
     skill2[3].classList.add("sql");
     skill2[4].classList.add("r");
-    skill2[5].classList.add("atencion");
-    skill2[6].classList.add("trabajo");
-    skill2[7].classList.add("comunicacion");
-    skill2[8].classList.add("pensamiento");
-    skill2[9].classList.add("dedicacion");
+    skill2[5].classList.add("plc");
+    skill2[6].classList.add("atencion");
+    skill2[7].classList.add("trabajo");
+    skill2[8].classList.add("comunicacion");
+    skill2[9].classList.add("pensamiento");
+    skill2[10].classList.add("dedicacion");
   }
 }
 
