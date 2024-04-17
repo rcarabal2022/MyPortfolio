@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+a {
+    text-decoration: none;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -35,7 +39,7 @@ html {
     font-family: 'Righteous';
     font-size: 45px;
     color: #B03d56;
-    text-decoration: none;
+    
 }
 
 .header-container header ul {
@@ -49,7 +53,7 @@ html {
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
-    text-decoration: none;
+    
 }
 
 .header-container header nav ul li a:hover {
@@ -106,7 +110,6 @@ html {
 .begin .container-banner .net a {
     color: #000000;
     display: inline-block;
-    text-decoration: none;
     border: 1px solid #000000;
     border-radius: 100%;
     height: 42px;
@@ -226,6 +229,7 @@ html {
     color: black;
     position: relative;
     z-index: 10;
+    
 }
 
 .aboutme button .overlay {
@@ -386,6 +390,20 @@ html {
         width: 60%;
     }
 }
+.skills .skills .plc {
+    width: 0%;
+    animation: 2s plc forwards;
+}
+
+@keyframes plc {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
 
 .skills .skills .atencion {
     width: 0%;
@@ -495,6 +513,7 @@ html {
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    
 }
 
 .curriculum .fila .left {
@@ -671,7 +690,6 @@ footer .net {
 footer .net a {
     color: #000000;
     display: inline-block;
-    text-decoration: none;
     border: 1px solid #000000;
     border-radius: 100%;
     height: 42px;
